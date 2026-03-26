@@ -1,0 +1,24 @@
+{
+  "name": "onduty-v64-2-5-apk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OnDuty V64.2.5 APK base project using Capacitor",
+  "scripts": {
+    "android:init": "npx cap add android",
+    "android:sync": "npx cap sync android",
+    "android:open": "npx cap open android",
+    "build": "node -e \"console.log('Static web app: no separate build step required.')\""
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/app": "^7.0.2",
+    "@capacitor/camera": "^7.0.2",
+    "@capacitor/core": "^7.4.3",
+    "@capacitor/filesystem": "^7.1.2",
+    "@capacitor/share": "^7.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.3.0",
+    "typescript": "^5.9.2"
+  }
+}
